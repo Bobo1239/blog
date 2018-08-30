@@ -1,0 +1,26 @@
+title = "TODO"
+description = "TODO"
+
+base_url = "https://bobo1239.tk"
+theme = "after-dark"
+# TODO: use base16-dark-default once 0.4.2 is released and you can add own themes
+highlight_theme = "base16-ocean-dark"
+
+compile_sass = true
+highlight_code = true
+build_search_index = true
+
+taxonomies = [
+    { name = "categories", rss = true },
+    { name = "tags", rss = true },
+]
+
+[extra]
+author = "Boris-Chengbiao Zhou"
+after_dark_title = "TODO"
+after_dark_menu = [
+    { url = "$BASE_URL", name = "Home" },
+    { url = "$BASE_URL/categories", name = "Categories" },
+    { url = "$BASE_URL/tags", name = "Tags" },
+    { url = "https://github.com/bobo1239", name = "GitHub" },
+]
