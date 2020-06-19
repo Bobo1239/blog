@@ -9,10 +9,6 @@ tags = ["todo"]
 
 TODO
 
-<!-- more -->
-
-TODO
-
 ```rust
 struct Todo {
     todo: usize,
