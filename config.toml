@@ -1,7 +1,7 @@
 title = "TODO"
 description = "TODO"
 
-base_url = "https://bobo1239.tk"
+base_url = "https://bobo1239.dev"
 theme = "after-dark"
 # TODO: use base16-dark-default once 0.4.2 is released and you can add own themes
 highlight_theme = "base16-ocean-dark"
