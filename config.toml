@@ -3,17 +3,18 @@ description = "TODO"
 
 base_url = "https://bobo1239.dev"
 theme = "after-dark"
-# TODO: use base16-dark-default once 0.4.2 is released and you can add own themes
-highlight_theme = "base16-ocean-dark"
-
 compile_sass = false
-highlight_code = true
 build_search_index = true
 
 taxonomies = [
-    { name = "categories", rss = true },
-    { name = "tags", rss = true },
+    { name = "categories" },
+    { name = "tags" },
 ]
+
+[markdown]
+highlight_code = true
+# TODO: use base16-dark-default once 0.4.2 is released and you can add own themes
+highlight_theme = "base16-ocean-dark"
 
 [extra]
 author = "Boris-Chengbiao Zhou"
